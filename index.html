@@ -1,64 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto Let</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antares</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="shortcut icon" href="/Assets/alt.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<header>Kreativ Home contact</header>
 <body>
-    <div class="main">
-        
-     <div class="left">
-        <h1>Let's get you started</h1>
-       
-        <div class="textfield">
-            <label for="usuario">Full name</label>
-            <input id="usuario" type="text" placeholder="">
-        </div>
+  <main>
+    <form action="pages.html">
+      
+      <div class="card">
+        <h1>Log in to Antares</h1>
 
         <div class="textfield">
-            <label for="usuario">Email address</label>
-            <input id="usuario" type="text" placeholder="">
+          <i class="bi bi-person-badge"></i>
+          <input type="text" placeholder="Usuário" required>
         </div>
-
         <div class="textfield">
-            <label for="usuario">Phone number</label>
-            <input id="usuario" type="text" placeholder="">
+          <i class="bi bi-key-fill"></i>
+          <input type="password" placeholder="Senha" required>
         </div>
 
-        <div class="textfield">
-            <label for="usuario">Create password</label>
-            <input id="senha" type="password" placeholder="senha">
+        <div class="btn">
+          <button type="submit" class="btn btn-primary">Log in</button>
         </div>
-
-        <label for="cars">Location</label>
-
-        <select name="cars" id="cars">
-          <option value="volvo"></option>
-          <option value="saab"></option>
-          <option value="mercedes"></option>
-          <option value="audi"></option>
-        </select>
-
-        
-
       </div>
+    </form>
+  </main>
 
-      <button class="btn-Sing Up">
-        Sing Up
-      </button>
-      <p>Already a user?Login</p>
-
-
-     
-
-        <div class="right">
-         <h1>“Creativity is intelligence having fun”</h1>
-         <h5>-Albert Einstein</h5>
-       </div>
-    </div>
+    <!--<img src="./Assets/img1.svg" alt="pessoa estudando" class="right">-->
+ 
 </body>
-</html
+
+</html>
